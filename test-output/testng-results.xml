@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48954" started-at="2018-04-16T05:32:08Z" finished-at="2018-04-16T05:32:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48954" started-at="2018-04-16T05:32:08Z" finished-at="2018-04-16T05:32:57Z">
+      <class name="com.TestCases.TC_003_FieldsUnderChangePswd">
+        <test-method status="PASS" signature="tc_VerifyFieldsUnderPswd()[pri:0, instance:com.TestCases.TC_003_FieldsUnderChangePswd@59f99ea]" name="tc_VerifyFieldsUnderPswd" duration-ms="15975" started-at="2018-04-16T11:02:41Z" finished-at="2018-04-16T11:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyFieldsUnderPswd -->
+      </class> <!-- com.TestCases.TC_003_FieldsUnderChangePswd -->
+      <class name="com.TestCases.TC_002_ClickChangePassword">
+        <test-method status="PASS" signature="tc_ClickChange_Password()[pri:0, instance:com.TestCases.TC_002_ClickChangePassword@ae45eb6]" name="tc_ClickChange_Password" duration-ms="14145" started-at="2018-04-16T11:02:27Z" finished-at="2018-04-16T11:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_ClickChange_Password -->
+      </class> <!-- com.TestCases.TC_002_ClickChangePassword -->
+      <class name="com.TestCases.TC_001_VerifyChngPswdLnk">
+        <test-method status="PASS" signature="tc_VerifyChangePswdLnk()[pri:0, instance:com.TestCases.TC_001_VerifyChngPswdLnk@26653222]" name="tc_VerifyChangePswdLnk" duration-ms="16382" started-at="2018-04-16T11:02:10Z" finished-at="2018-04-16T11:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyChangePswdLnk -->
+      </class> <!-- com.TestCases.TC_001_VerifyChngPswdLnk -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
