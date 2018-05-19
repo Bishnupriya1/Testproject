@@ -423,5 +423,41 @@ public class GenericFunctions extends TestNGListeners {
 		return status;
 	}
 	
+
+	//*********************************************************************
+		/**
+		 * Method Name: verify_ElementDisplay
+		 * Purpose: To verify Element is to displayed
+		 * Input Parameters: Browser
+		 * Output Parameters: Boolean
+		 * Designed by:
+		 * Reviewed by:
+		 * Comments:
+		 * Modify Date:
+		 * Modified Reason
+		 */
+	//********************************************************************
+	public static boolean verify_ElementDisplay(WebElement element)
+	{
+		boolean status=true;
+		
+		
+		try
+		{
+		waitForElement(element);
+		if(element.isDisplayed())
+		{
+			System.out.println("Element is displayed");
+		}
+		
+		}
+		catch(Exception e)
+		{
+			status=false;
+			System.out.println("Element is not displayed");
+		}
+		return status;
+	}
+	
 	
 }

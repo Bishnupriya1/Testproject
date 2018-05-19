@@ -12,9 +12,8 @@ class-name="com.GenericFunctions.TestNGListeners"></listener>
   
   <classes>
   
-    <class name="com.TestCases.TC_001_VerifyChngPswdLnk"></class> 
-    <class name="com.TestCases.TC_002_ClickChangePassword"></class>   
-    <class name="com.TestCases.TC_003_FieldsUnderChangePswd"></class>  
+    <class name="com.TestCases.Tc_01_Registration"></class> 
+     
 
      
   
